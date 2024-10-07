@@ -29,7 +29,6 @@ var isValid = function(s) {
     // If the stack is empty, all brackets were matched correctly
     return stack.length === 0;
 };
-};
 
 module.exports = { isValid };
 
